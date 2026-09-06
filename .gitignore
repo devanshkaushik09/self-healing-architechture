@@ -1,0 +1,55 @@
+# ── Node / Express (app/) ────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+
+# ── Python (agent/, watchdog/) ───────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# ── Environment / secrets ────────────────────────────
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ── Docker ────────────────────────────────────────────
+*.log
+
+# ── Database ──────────────────────────────────────────
+*.sqlite3
+*.db
+
+# ── Build output ──────────────────────────────────────
+dist/
+build/
+*.tsbuildinfo
+
+# ── Dashboard ─────────────────────
+.next/
+out/
+
+# ── OS junk ───────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor / IDE ──────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Misc ──────────────────────────────────────────────
+coverage/
+.cache/
+tmp/
