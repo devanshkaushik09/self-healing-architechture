@@ -11,6 +11,9 @@ app.use('/products', productsRouter);
 const cartRouter = require('./routes/cart');
 app.use('/cart', cartRouter);
 
+const ordersRouter = require('./routes/orders');
+app.use('/orders', ordersRouter);
+
 const PORT = process.env.PORT || 3000;
 
 // Health check endpoint — the watchdog and deploy-verification step
